@@ -46,10 +46,19 @@ set(INCLUDE_DIR ${CMAKE_SOURCE_DIR}/src)
 set(Test_SOURCE_DIR ${CMAKE_SOURCE_DIR}/src-test)
 
 # Automatically collect all source files
-file(GLOB_RECURSE SOURCES "${SOURCE_DIR}/**/*.cpp")
+file(GLOB_RECURSE SOURCES
+        "${SOURCE_DIR}/*.cpp"
+        "${SOURCE_DIR}/**/*.cpp"
+        "${SOURCE_DIR}/**/**/*.cpp"
+
+)
 
 # Automatically collect all header files (for IDEs and include path)
-file(GLOB_RECURSE HEADERS "${INCLUDE_DIR}/**/*.hpp")
+file(GLOB_RECURSE HEADERS
+        "${INCLUDE_DIR}/*.hpp"
+        "${INCLUDE_DIR}/**/*.hpp"
+        "${INCLUDE_DIR}/**/**/*.hpp"
+)
 
 file(GLOB_RECURSE Test_SOURCES "${Test_SOURCE_DIR}/**/*.cpp")
 
