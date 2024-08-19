@@ -1,9 +1,9 @@
 #pragma once
 
 #include <string>
-#include "SinkTime.hpp"
-#include "SourceBase.hpp"
-#include "Graph.hpp"
+#include "stream/sync/SinkTime.hpp"
+#include "stream/SourceBase.hpp"
+#include "graph/Graph.hpp"
 #include "AttributeChangeEvent.hpp"
 
 class GraphListeners : public SourceBase, public Pipe {

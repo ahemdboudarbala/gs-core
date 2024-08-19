@@ -2,9 +2,9 @@
 
 #include <string>
 #include <iostream>
-#include "SinkAdapter.hpp"
-#include "FileSource.hpp"
-#include "FileSourceFactory.hpp"
+#include "stream/SinkAdapter.hpp"
+#include "stream/file/FileSource.hpp"
+#include "stream/file/FileSourceFactory.hpp"
 
 class StepCounter : public SinkAdapter {
 public:

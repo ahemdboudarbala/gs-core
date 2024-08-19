@@ -1,7 +1,7 @@
 #ifndef VERBOSE_SINK_HPP
 #define VERBOSE_SINK_HPP
 
-#include "Sink.hpp"
+#include "stream/Sink.hpp"
 #include <iostream>
 #include <string>
 #include <map>

@@ -50,6 +50,7 @@ file(GLOB_RECURSE SOURCES
         "${SOURCE_DIR}/*.cpp"
         "${SOURCE_DIR}/**/*.cpp"
         "${SOURCE_DIR}/**/**/*.cpp"
+        "${SOURCE_DIR}/**/**/**/*.cpp"
 
 )
 
@@ -58,6 +59,7 @@ file(GLOB_RECURSE HEADERS
         "${INCLUDE_DIR}/*.hpp"
         "${INCLUDE_DIR}/**/*.hpp"
         "${INCLUDE_DIR}/**/**/*.hpp"
+        "${INCLUDE_DIR}/**/**/**/*.hpp"
 )
 
 file(GLOB_RECURSE Test_SOURCES "${Test_SOURCE_DIR}/**/*.cpp")

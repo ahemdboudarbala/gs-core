@@ -11,17 +11,17 @@
 #include "Element.hpp"
 #include "Node.hpp"
 #include "Edge.hpp"
-#include "Pipe.hpp"
+#include "stream/Pipe.hpp"
 #include "Structure.hpp"
-#include "FileSource.hpp"
-#include "FileSink.hpp"
-#include "GraphParseException.hpp"
+#include "stream/file/FileSource.hpp"
+#include "stream/file/FileSink.hpp"
+#include "stream/GraphParseException.hpp"
 #include "ElementNotFoundException.hpp"
 #include "IdAlreadyInUseException.hpp"
 #include "EdgeRejectedException.hpp"
 #include "NodeFactory.hpp"
 #include "EdgeFactory.hpp"
-#include "Viewer.hpp"
+#include "ui/view/Viewer.hpp"
 
 class Graph : public Element, public Pipe, public Structure {
 public:
