@@ -2,10 +2,10 @@
 #define ABSTRACT_EDGE_HPP
 
 #include "AbstractElement.hpp"
-#include "Edge.hpp"
+#include "graph/Edge.hpp"
 #include "AbstractNode.hpp"
 #include "AbstractGraph.hpp"
-#include "ElementType.hpp"
+//#include "ElementType.hpp"
 #include <string>
 
 class AbstractEdge : public AbstractElement, public Edge {

@@ -10,10 +10,10 @@
 #include <stdexcept>
 #include <iostream>
 #include <type_traits>
-#include "Graph.hpp" // Assuming you have Graph, Node, Edge classes
+#include "graph/Graph.hpp" // Assuming you have Graph, Node, Edge classes
 #include "MultiGraph.hpp"
 #include "AdjacencyListGraph.hpp"
-#include "GraphReplay.hpp"
+#include "stream/GraphReplay.hpp"
 
 class Graphs {
 public:

@@ -1,8 +1,8 @@
 #include "AdjacencyListGraph.hpp"
 #include "AbstractEdge.hpp"
 #include "AdjacencyListNode.hpp"
-#include "ElementNotFoundException.hpp"
-#include "IdAlreadyInUseException.hpp"
+#include "graph/ElementNotFoundException.hpp"
+#include "graph/IdAlreadyInUseException.hpp"
 #include <stdexcept>
 #include <algorithm>
 

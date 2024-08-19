@@ -1,8 +1,8 @@
 #include "AbstractGraph.hpp"
-#include "ElementNotFoundException.hpp"
-#include "IdAlreadyInUseException.hpp"
-#include "EdgeRejectedException.hpp"
-#include "MissingDisplayException.hpp"
+#include "graph/ElementNotFoundException.hpp"
+#include "graph/IdAlreadyInUseException.hpp"
+#include "graph/EdgeRejectedException.hpp"
+#include "util/MissingDisplayException.hpp"
 #include <algorithm>
 #include <sstream>
 

@@ -2,11 +2,11 @@
 #define ABSTRACT_NODE_HPP
 
 #include "AbstractElement.hpp"
-#include "Node.hpp"
-#include "Edge.hpp"
+#include "graph/Node.hpp"
+#include "graph/Edge.hpp"
 #include "AbstractGraph.hpp"
-#include "BreadthFirstIterator.hpp"
-#include "DepthFirstIterator.hpp"
+#include "graph/BreadthFirstIterator.hpp"
+#include "graph/DepthFirstIterator.hpp"
 #include <string>
 #include <memory>
 #include <iterator>

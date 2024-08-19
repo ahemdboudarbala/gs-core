@@ -2,13 +2,13 @@
 #define ABSTRACT_GRAPH_HPP
 
 #include "AbstractElement.hpp"
-#include "Node.hpp"
-#include "Edge.hpp"
-#include "NodeFactory.hpp"
-#include "EdgeFactory.hpp"
-#include "GraphListeners.hpp"
-#include "Replayable.hpp"
-#include "SourceBase.hpp"
+#include "graph/Node.hpp"
+#include "graph/Edge.hpp"
+#include "graph/NodeFactory.hpp"
+#include "graph/EdgeFactory.hpp"
+#include "util/GraphListeners.hpp"
+#include "stream/Replayable.hpp"
+#include "stream/SourceBase.hpp"
 #include <memory>
 #include <iterator>
 #include <string>
