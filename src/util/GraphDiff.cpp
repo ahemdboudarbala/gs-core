@@ -1,9 +1,9 @@
 #include "GraphDiff.hpp"
-#include "Graph.hpp"
-#include "Node.hpp"
-#include "Edge.hpp"
-#include "Sink.hpp"
-#include "AdjacencyListGraph.hpp"
+#include "graph/Graph.hpp"
+#include "graph/Node.hpp"
+#include "graph/Edge.hpp"
+#include "stream/Sink.hpp"
+#include "graph/implementations/AdjacencyListGraph.hpp"
 #include <chrono>
 #include <sstream>
 #include <iostream>

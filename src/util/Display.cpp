@@ -1,6 +1,6 @@
 #include "Display.hpp"
-#include "Graph.hpp"
-#include "Viewer.hpp"
+#include "graph/Graph.hpp"
+#include "ui/view/Viewer.hpp"
 #include <iostream>
 #include <cstdlib>
 

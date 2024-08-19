@@ -36,7 +36,7 @@
 
 #include "Sprite.hpp"
 #include "SpriteManager.hpp"
-#include "Values.hpp"
+#include "ui/graphicGraph/stylesheet/Values.hpp"
 #include <memory>
 
 class SpriteFactory {

@@ -1,8 +1,8 @@
 #ifndef GRAPH_RENDERER_BASE_HPP
 #define GRAPH_RENDERER_BASE_HPP
 
-#include "GraphicGraph.hpp"
-#include "StyleGroupListener.hpp"
+#include "ui/graphicGraph/GraphicGraph.hpp"
+#include "ui/graphicGraph/StyleGroupListener.hpp"
 #include "Selection.hpp"
 #include "GraphRenderer.hpp"
 #include <stdexcept>

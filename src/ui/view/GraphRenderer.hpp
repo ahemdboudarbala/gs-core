@@ -1,9 +1,9 @@
 #ifndef GRAPH_RENDERER_HPP
 #define GRAPH_RENDERER_HPP
 
-#include "GraphicElement.hpp"
-#include "GraphicGraph.hpp"
-#include "InteractiveElement.hpp"
+#include "ui/graphicGraph/GraphicElement.hpp"
+#include "ui/graphicGraph/GraphicGraph.hpp"
+#include "ui/view/util/InteractiveElement.hpp"
 #include "View.hpp"
 #include "Viewer.hpp"
 #include "LayerRenderer.hpp"

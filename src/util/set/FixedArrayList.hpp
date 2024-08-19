@@ -54,6 +54,6 @@ private:
     int lastIndex;
 };
 
-#include "FixedArrayList.tpp" // Include the template implementation file
+//#include "FixedArrayList.tpp" // Include the template implementation file
 
 #endif // FIXEDARRAYLIST_HPP

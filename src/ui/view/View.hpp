@@ -5,12 +5,12 @@
 #include <memory>
 #include <set>
 #include <map>
-#include "GraphicElement.hpp"
-#include "GraphicGraph.hpp"
-#include "Camera.hpp"
-#include "InteractiveElement.hpp"
-#include "MouseManager.hpp"
-#include "ShortcutManager.hpp"
+#include "ui/graphicGraph/GraphicElement.hpp"
+#include "ui/graphicGraph/GraphicGraph.hpp"
+#include "ui/view/camera/Camera.hpp"
+#include "ui/view/util/InteractiveElement.hpp"
+#include "ui/view/util/MouseManager.hpp"
+#include "ui/view/util/ShortcutManager.hpp"
 
 class View {
 public:

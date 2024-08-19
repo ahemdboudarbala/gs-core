@@ -1,7 +1,7 @@
 #ifndef SHORTCUT_MANAGER_HPP
 #define SHORTCUT_MANAGER_HPP
 
-#include "GraphicGraph.hpp"
+#include "ui/graphicGraph/GraphicGraph.hpp"
 #include "View.hpp"
 
 /**

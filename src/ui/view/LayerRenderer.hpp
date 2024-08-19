@@ -1,7 +1,7 @@
 #ifndef LAYER_RENDERER_HPP
 #define LAYER_RENDERER_HPP
 
-#include "GraphicGraph.hpp"  // Assuming you have a corresponding C++ class for GraphicGraph
+#include "ui/graphicGraph/GraphicGraph.hpp"  // Assuming you have a corresponding C++ class for GraphicGraph
 
 template <typename G>
 class LayerRenderer {

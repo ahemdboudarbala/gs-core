@@ -33,7 +33,7 @@
 #ifndef AREASKELETON_HPP
 #define AREASKELETON_HPP
 
-#include "Point2.hpp"
+#include "ui/geom/Point2.hpp"
 
 class AreaSkeleton {
 public:

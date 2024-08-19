@@ -35,10 +35,10 @@
 #ifndef SPRITE_HPP
 #define SPRITE_HPP
 
-#include "Element.hpp"
+#include "graph/Element.hpp"
 #include "SpriteManager.hpp"
-#include "Style.hpp"
-#include "Values.hpp"
+#include "ui/graphicGraph/stylesheet/Style.hpp"
+#include "ui/graphicGraph/stylesheet/Values.hpp"
 #include <string>
 #include <map>
 #include <vector>

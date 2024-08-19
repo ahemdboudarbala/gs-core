@@ -33,7 +33,7 @@
 #ifndef BACKEND_HPP
 #define BACKEND_HPP
 
-#include "Point3.hpp"
+#include "ui/geom/Point3.hpp"
 
 class Backend {
 public:

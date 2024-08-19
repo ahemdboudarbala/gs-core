@@ -1,5 +1,5 @@
 #include "Viewer.hpp"
-#include "ThreadProxyPipe.hpp"
+#include "stream/thread/ThreadProxyPipe.hpp"
 #include "ViewerPipe.hpp"
 #include <sstream>
 #include <iomanip>

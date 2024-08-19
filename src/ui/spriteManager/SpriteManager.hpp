@@ -43,9 +43,9 @@
 #include <memory>
 #include <stdexcept>
 #include "Sprite.hpp"
-#include "Graph.hpp"
+#include "graph/Graph.hpp"
 #include "SpriteFactory.hpp"
-#include "Values.hpp"
+#include "ui/graphicGraph/stylesheet/Values.hpp"
 
 class SpriteManager {
 public:

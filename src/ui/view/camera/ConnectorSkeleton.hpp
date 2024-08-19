@@ -33,7 +33,7 @@
 #ifndef CONNECTORSKELETON_HPP
 #define CONNECTORSKELETON_HPP
 
-#include "Point3.hpp"
+#include "ui/geom/Point3.hpp"
 #include <string>
 
 class ConnectorSkeleton {

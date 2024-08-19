@@ -1,5 +1,5 @@
 #include "Sprite.hpp"
-#include "Graph.hpp"
+#include "graph/Graph.hpp"
 
 Sprite::Sprite() {}
 

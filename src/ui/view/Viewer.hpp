@@ -6,11 +6,11 @@
 #include <memory>
 #include <random>
 
-#include "GraphicGraph.hpp"
+#include "ui/graphicGraph/GraphicGraph.hpp"
 #include "View.hpp"
-#include "ProxyPipe.hpp"
-#include "Layout.hpp"
-#include "LayoutRunner.hpp"
+#include "stream/ProxyPipe.hpp"
+#include "ui/layout/Layout.hpp"
+#include "ui/layout/LayoutRunner.hpp"
 #include "ViewerPipe.hpp"
 
 class Viewer {

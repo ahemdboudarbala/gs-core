@@ -33,11 +33,11 @@
 #ifndef CAMERA_HPP
 #define CAMERA_HPP
 
-#include "Point3.hpp"
-#include "GraphicElement.hpp"
-#include "GraphicGraph.hpp"
-#include "GraphMetrics.hpp"
-#include "InteractiveElement.hpp"
+#include "ui/geom/Point3.hpp"
+#include "ui/graphicGraph/GraphicElement.hpp"
+#include "ui/graphicGraph/GraphicGraph.hpp"
+#include "ui/view/util/GraphMetrics.hpp"
+#include "ui/view/util/InteractiveElement.hpp"
 #include <vector>
 #include <set>
 

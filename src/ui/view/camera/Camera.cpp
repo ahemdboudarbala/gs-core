@@ -1,8 +1,8 @@
 #include "Camera.hpp"
-#include "ConcreteCamera.hpp"
+#include "DefaultCamera2D.hpp"
 
 // Implement the methods of ConcreteCamera here
-Point3 ConcreteCamera::getViewCenter() {
+Point3 DefaultCamera2D::getViewCenter() {
     // Implementation here
 }
 

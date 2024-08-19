@@ -1,7 +1,7 @@
 #ifndef MOUSE_MANAGER_HPP
 #define MOUSE_MANAGER_HPP
 
-#include "GraphicGraph.hpp"
+#include "ui/graphicGraph/GraphicGraph.hpp"
 #include "View.hpp"
 #include "InteractiveElement.hpp"
 #include <set>

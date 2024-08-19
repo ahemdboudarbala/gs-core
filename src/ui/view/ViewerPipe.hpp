@@ -5,8 +5,8 @@
 #include <set>
 #include <memory>
 #include <stdexcept>
-#include "ProxyPipe.hpp"
-#include "SourceBase.hpp"
+#include "stream/ProxyPipe.hpp"
+#include "stream/SourceBase.hpp"
 #include "ViewerListener.hpp"
 
 class ViewerPipe : public SourceBase, public ProxyPipe {

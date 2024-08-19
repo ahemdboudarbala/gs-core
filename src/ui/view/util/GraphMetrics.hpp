@@ -5,10 +5,10 @@
 #include <iostream>
 #include <sstream>
 #include <array>
-#include "Point3.hpp"
-#include "Vector3.hpp"
-#include "StyleConstants.hpp"
-#include "Values.hpp"
+#include "ui/geom/Point3.hpp"
+#include "ui/geom/Vector3.hpp"
+#include "ui/graphicGraph/stylesheet/StyleConstants.hpp"
+#include "ui/graphicGraph/stylesheet/Values.hpp"
 
 /**
  * Various geometric informations on the graphic graph.

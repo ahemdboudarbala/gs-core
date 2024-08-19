@@ -34,10 +34,10 @@
 #define GRAPHSTREAM_UI_VIEW_CAMERA_DEFAULTCAMERA2D_HPP
 
 #include "Camera.hpp"
-#include "Point3.hpp"
-#include "GraphMetrics.hpp"
+#include "ui/geom/Point3.hpp"
+#include "ui/view/util/GraphMetrics.hpp"
 #include "Backend.hpp"
-#include "GraphicGraph.hpp"
+#include "ui/graphicGraph/GraphicGraph.hpp"
 #include <unordered_set>
 #include <vector>
 #include <string>
